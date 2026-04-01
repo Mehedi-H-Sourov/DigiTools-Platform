@@ -1,0 +1,138 @@
+[
+    {
+        "id": 1,
+        "badge": "Best Seller",
+        "icon": "✍️",
+        "title": "AI Writing Pro",
+        "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+        "price": 29,
+        "period": "Mo",
+        "features": [
+            " Unlimited AI generations",
+            " 50+ writing templates",
+            " Grammar checker"
+        ],
+        "button_text": "Buy Now",
+        "button_color": "purple",
+        "popular": true
+    },
+    {
+        "id": 2,
+        "badge": "Most Popular",
+        "icon": "🚀",
+        "title": "AI Content Master",
+        "description": "Create engaging blog posts, social media content, and SEO-optimized articles effortlessly.",
+        "price": 39,
+        "period": "Mo",
+        "features": [
+            " Unlimited generations",
+            " 100+ premium templates",
+            " SEO optimization tools"
+        ],
+        "button_text": "Get Started",
+        "button_color": "blue",
+        "popular": true
+    },
+    {
+        "id": 3,
+        "badge": "New",
+        "icon": "📝",
+        "title": "AI Writer Starter",
+        "description": "Perfect for beginners. Generate clean, professional writing with basic AI assistance.",
+        "price": 15,
+        "period": "Mo",
+        "features": [
+            " 500 AI generations per month",
+            " 20 writing templates",
+            " Basic grammar checker"
+        ],
+        "button_text": "Buy Now",
+        "button_color": "green",
+        "popular": false
+    },
+    {
+        "id": 4,
+        "badge": "Best Value",
+        "icon": "💎",
+        "title": "AI Writing Unlimited",
+        "description": "For power users who need unlimited access to all AI writing features.",
+        "price": 59,
+        "period": "Mo",
+        "features": [
+            " Truly unlimited generations",
+            " 200+ templates & styles",
+            " Advanced grammar & tone tools"
+        ],
+        "button_text": "Choose Plan",
+        "button_color": "purple",
+        "popular": false
+    },
+    {
+        "id": 5,
+        "badge": "New",
+        "icon": "🌟",
+        "title": "AI Copywriter Pro",
+        "description": "Specialized in high-converting marketing copy, ads, emails, and landing pages.",
+        "price": 49,
+        "period": "Mo",
+        "features": [
+            " Unlimited marketing generations",
+            " A/B testing suggestions",
+            " Email & ad templates"
+        ],
+        "button_text": "Buy Now",
+        "button_color": "orange",
+        "popular": false
+    },
+    {
+        "id": 6,
+        "badge": "Best Value",
+        "icon": "📚",
+        "title": "AI Essay Helper",
+        "description": "Ideal for students and researchers. Generate essays, reports, and academic content.",
+        "price": 19,
+        "period": "Mo",
+        "features": [
+            " 300 generations per month",
+            " Academic writing templates",
+            " Citation suggestions"
+        ],
+        "button_text": "Start Free Trial",
+        "button_color": "teal",
+        "popular": false
+    },
+    {
+        "id": 7,
+        "badge": "Enterprise",
+        "icon": "🏢",
+        "title": "Team AI Writer",
+        "description": "For teams and businesses. Collaborate and generate content with your whole team.",
+        "price": 99,
+        "period": "Mo",
+        "features": [
+            " Unlimited team generations",
+            " Team collaboration tools",
+            " Custom brand voice training"
+        ],
+        "button_text": "Contact Sales",
+        "button_color": "indigo",
+        "popular": false
+    },
+    {
+        "id": 8,
+        "badge": "Limited Time",
+        "icon": "⚡",
+        "title": "AI Blogging Pro",
+        "description": "Built specifically for bloggers. Generate full blog posts with images ideas and SEO.",
+        "price": 25,
+        "period": "Mo",
+        "features": [
+            " Unlimited blog generations",
+            " SEO keyword integration",
+            " Image description generator"
+        ],
+        "button_text": "Buy Now",
+        "button_color": "pink",
+        "popular": false
+    }
+]
