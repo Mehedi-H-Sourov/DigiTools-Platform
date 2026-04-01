@@ -6,6 +6,7 @@ import Tools from './components/Tools';
 import GetStarted from './components/GetStarted';
 import Pricing from './components/Pricing';
 import Footer from './components/Footer';
+import Workflow from './components/Workflow';
 
 
 
@@ -15,6 +16,7 @@ const fetchTools = async () => {
   const res = await fetch('/data.json');
   return res.json()
 }
+
 const toolsPromise = fetchTools()
 
 
@@ -28,7 +30,7 @@ function App() {
       <Tools toolsPromise={toolsPromise} />
       <GetStarted />
       <Pricing />
-
+      <Workflow />
       <Footer />
 
     </div>

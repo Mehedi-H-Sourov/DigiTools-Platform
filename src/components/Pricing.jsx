@@ -31,7 +31,8 @@ const Pricing = () => {
 
                 </div>
 
-                <div className='parent1 shadow-2xl p-6 bg-purple-500 rounded-xl '>
+                <div className='relative parent1 shadow-2xl p-6 bg-purple-500 rounded-xl '>
+                    <div className='absolute -top-3 left-1/2 transform -translate-x-1/2 badge rounded-full border-none bg-orange-100 text-orange-600 z-10'>Most Popular</div>
                     <div>
                         <h2 className='text-xl text-white font-bold'>Pro</h2>
                         <p className='text-sm text-white'>Best for professionals</p>

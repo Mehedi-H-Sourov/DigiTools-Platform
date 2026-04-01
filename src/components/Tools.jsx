@@ -1,5 +1,6 @@
 import React, { use, useState } from 'react';
 import Products from '../components/Products';
+import Cart from './Cart';
 
 
 const Tools = ({ toolsPromise }) => {
@@ -7,7 +8,8 @@ const Tools = ({ toolsPromise }) => {
     const items = use(toolsPromise);
 
     const [AiTools, setAiTools] = useState('AiTools');
-    
+    const [cartItems, setCartItems] = useState([]);
+
     return (
         <div>
             <div className='text-center mt-20 space-y-3'>
@@ -23,7 +25,7 @@ const Tools = ({ toolsPromise }) => {
 
 
 
-            <Products items={items} />
+            {AiTools === 'AiTools' ? (<Products items={items} cartItems={cartItems} setCartItems={setCartItems} />) : (<Cart cartItems={cartItems} />)}
         </div>
     );
 
