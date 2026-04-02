@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
+import { toast } from 'react-toastify';
 
 const Card = ({ item, cartItems, setCartItems }) => {
 
     const [isSelected, setIsSelected] = useState(false);
 
     const handleCartItems = () => {
-        alert(`${item.title} added to cart!`);
+
         setIsSelected(true);
         setCartItems([...cartItems, item]);
+        toast.success(`${item.title} added to cart!`);
     };
 
     return (
@@ -31,7 +33,7 @@ const Card = ({ item, cartItems, setCartItems }) => {
                     ))}
                 </ul>
 
-                <button className='btn w-full rounded-full bg-linear-to-r from-blue-600 to-purple-600 text-white' onClick={handleCartItems} >
+                <button className='btn w-full rounded-full bg-linear-to-r from-blue-600 to-purple-600 text-white' onClick={handleCartItems}>
                     {isSelected ? 'Bought' : 'Buy Now'}
                 </button>
 

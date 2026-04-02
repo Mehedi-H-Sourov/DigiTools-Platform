@@ -7,9 +7,7 @@ import GetStarted from './components/GetStarted';
 import Pricing from './components/Pricing';
 import Footer from './components/Footer';
 import Workflow from './components/Workflow';
-
-
-
+import { ToastContainer } from 'react-toastify';
 
 
 
