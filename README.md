@@ -1,7 +1,7 @@
 # 🚀 Digi-Tools - Your Ai Hub
 
 A modern web platform designed to simplify how users explore and manage premium AI tool subscriptions.  
-This project combines a **professional SaaS-style design** with a **smooth and intuitive user experience**.
+This project combines a **professional design made with React** with a **smooth and intuitive user experience**.
 
 ---
 

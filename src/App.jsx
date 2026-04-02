@@ -22,7 +22,6 @@ const toolsPromise = fetchTools()
 function App() {
   return (
     <div>
-
       <Navbar />
       <Banner />
       <Users />
@@ -31,7 +30,6 @@ function App() {
       <Pricing />
       <Workflow />
       <Footer />
-
     </div>
   );
 };
