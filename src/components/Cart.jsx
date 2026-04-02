@@ -5,6 +5,7 @@ const Cart = ({ cartItems, setCartItems }) => {
     console.log(cartItems);
 
     const deleteCartItems = (item) => {
+        console.log(item);
         const updatedCartItems = cartItems.filter(cartItem => cartItem.title !== item.title);
         setCartItems(updatedCartItems);
     }

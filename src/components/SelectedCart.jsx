@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SelectedCart = ({ item }) => {
+const SelectedCart = ({ item, deleteCartItems }) => {
     return (
         <div>
             <div className=' flex justify-between  items-center bg-base-200 max-w-5xl mx-auto rounded-xl p-6 space-y-4 mt-10 border border-gray-100 shadow-lg'>
@@ -16,8 +16,9 @@ const SelectedCart = ({ item }) => {
                     </div>
                 </div>
 
-                <button className='btn  text-red-500'>Remove</button>
+                <button className='btn  text-red-500' onClick={() => deleteCartItems(item)}>Remove</button>
             </div>
+
 
         </div>
     );
