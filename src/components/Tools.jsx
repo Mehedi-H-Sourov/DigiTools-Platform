@@ -19,13 +19,13 @@ const Tools = ({ toolsPromise }) => {
 
             <div className='text-center my-10'>
                 <button onClick={() => setAiTools('AiTools')} className={`btn  rounded-full rounded-r-none ${AiTools === 'AiTools' ? 'btn-primary' : 'btn-active'}`}>Products</button>
-                <button onClick={() => setAiTools('Cart')} className={`btn  rounded-full rounded-l-none ${AiTools === 'Cart' ? 'btn-primary' : 'btn-active'}`}>Cart(0)</button>
+                <button onClick={() => setAiTools('Cart')} className={`btn  rounded-full rounded-l-none ${AiTools === 'Cart' ? 'btn-primary' : 'btn-active'}`}>Cart({cartItems.length})</button>
             </div>
 
 
 
 
-            {AiTools === 'AiTools' ? (<Products items={items} cartItems={cartItems} setCartItems={setCartItems} />) : (<Cart cartItems={cartItems} />)}
+            {AiTools === 'AiTools' ? (<Products items={items} cartItems={cartItems} setCartItems={setCartItems} />) : (<Cart cartItems={cartItems} setCartItems={setCartItems} />)}
         </div>
     );
 

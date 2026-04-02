@@ -7,6 +7,8 @@ import GetStarted from './components/GetStarted';
 import Pricing from './components/Pricing';
 import Footer from './components/Footer';
 import Workflow from './components/Workflow';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 
@@ -32,6 +34,9 @@ function App() {
       <Pricing />
       <Workflow />
       <Footer />
+
+      <ToastContainer />
+
 
     </div>
   );
